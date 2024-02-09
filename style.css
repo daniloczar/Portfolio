@@ -77,32 +77,32 @@ a {
   display: flex;
   list-style: none;
 }
-.nav-links a{
+.nav-links a {
   position: relative;
   font-family: var(--font2);
   font-size: 1.2em;
   text-decoration: none;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-.nav-links a:hover{
-  color:var(--primary-color);
+.nav-links a:hover {
+  color: var(--primary-color);
 }
-.nav-links span{
+.nav-links span {
   position: absolute;
-    top: -3px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    border-bottom: 2px solid var(--primary-color);
-    border-radius: 15px;
-    transform: scale(0) translateY(50px);
-    opacity: 0;
-    transition: .7s ease;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 15px;
+  transform: scale(0) translateY(50px);
+  opacity: 0;
+  transition: 0.7s ease;
 }
-.nav-links a:hover span{
-    transform: scale(1) translateY(0);
-    opacity: 1;
+.nav-links a:hover span {
+  transform: scale(1) translateY(0);
+  opacity: 1;
 }
 @media screen and (min-width: 900px) {
   .nav-links ul li:last-child {
@@ -119,7 +119,7 @@ a {
   color: red;
 }
 
-.open-menuBtn::before{
+.open-menuBtn::before {
   font-size: 1.5em;
 }
 .open-menuBtn:hover {
@@ -307,7 +307,6 @@ a {
   }
 }
 
-/* arrumar media query */
 .home-container-tech {
   display: flex;
   flex-direction: column;
@@ -343,6 +342,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2em;
+  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.398));
 }
 
 .about-container {
@@ -508,13 +508,12 @@ a {
   font-size: 1.3em;
 }
 /* ------contact section------ */
-.contact_section{
+.contact_section {
   background: var(--text-dark);
 }
 .background-footer {
   display: flex;
   min-height: 70vh;
-  
 }
 .container-footer {
   flex: 0 1 600px;
@@ -529,7 +528,7 @@ a {
 }
 
 .screen:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -537,7 +536,7 @@ a {
   right: 20px;
   bottom: 0;
   border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   z-index: -1;
 }
 
@@ -547,16 +546,16 @@ a {
 
 .screen-body-item {
   flex: 1;
-  padding:50px;
+  padding: 50px;
 }
 
 .screen-body-item.left {
   display: flex;
   flex-direction: column;
   max-width: 200px;
-  padding: 50px 10px 50px 50px
+  padding: 50px 10px 50px 50px;
 }
-textarea{
+textarea {
   border: none;
   outline: none;
   min-height: 150px;
@@ -568,13 +567,13 @@ textarea{
   flex-direction: column;
   width: 170px;
   position: relative;
-  color:var(--primary-color);
+  color: var(--primary-color);
   font-size: 26px;
   font-family: var(--font1);
 }
 
 .app-title:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -592,23 +591,25 @@ textarea{
   font-size: 12px;
   color: #888;
 }
-.whatsapp i{
+.whatsapp i {
   font-size: 2em;
   color: var(--tertiary-color);
 }
-.whatsapp{
+.whatsapp {
   display: inline;
 }
-.whatsapp a, .github a{
+.whatsapp a,
+.github a {
   padding: 5px;
 }
-.whatsapp a:hover i, .github a:hover i{
+.whatsapp a:hover i,
+.github a:hover i {
   color: var(--primary-color);
 }
-.github{
+.github {
   display: inline;
 }
-.github i{
+.github i {
   font-size: 2em;
   margin: 5px 0;
   color: var(--tertiary-color);
@@ -637,7 +638,7 @@ textarea{
   font-family: var(--font1);
   font-size: 14px;
   outline: none;
-  transition: border-color .2s;
+  transition: border-color 0.2s;
 }
 
 .app-form-control::placeholder {
