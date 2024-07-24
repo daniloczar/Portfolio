@@ -342,7 +342,11 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   gap: 2em;
-  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.398));
+  filter: drop-shadow(5px 4px 7px rgba(0, 0, 0, 0.265));
+}
+.icon-logos img{
+  width: 50px;
+  height: auto;
 }
 
 .about-container {
